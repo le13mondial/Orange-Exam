@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-light navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/images/download.png" alt="" height="60px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Orange</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Favoris
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container mt-4">
+      <div class="row">
+          <p class="display-5">NIKITA</p>
+          <div class="col-lg-6">
+                  <img src="/images/irobot.jpg" alt="" height="400px" width="400px">
+          </div>
+          <div class="col-lg-6">
+             <h1>Description</h1>
+             <span>Gerne:</span> <span>Films</span><br> <br>
+             <span>Type:</span> <span>Adventure/ Action</span><br><br>
+             <span>Dure</span> <span>2Heurs</span> <br> <br>
+             <span>partie</span> <span>1</span> <br><br>
+             <a href="#" class="btn btn-primary">Regardez Maintenant</a>
+             <a href="#" class="btn btn-warning">Favoris <i class="fa-solid fa-heart text-danger"></i></a>
+             <button type="dowload" class="btn btn-danger">Download <i class="fa-solid fa-download"></i></button>
+          </div>
+      </div>
+  </div>
+
+
+
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/all.min.js"></script>
+</body>
+</html>
